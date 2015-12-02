@@ -1,5 +1,5 @@
 #!/bin/bash
-name=unipub_paper15
+name=uniped15
 
 set -x
 
