@@ -12,12 +12,15 @@ function system {
   fi
 }
 
-#opt="--encoding=utf8"
-opt=
+opt="--encoding=utf8"
+#opt=
 
 # Compile to latex and pdf
-system doconce format pdflatex $name --latex_code_style=vrb $opt
+system doconce format pdflatex $name --latex_code_style=vrb $opt --latex_table_format=footnotesize --section_numbering=off
 system pdflatex $name
 system bibtex $name
 system pdflatex $name
 system pdflatex $name
+
+# Publish
+cp $name.pdf ../pub

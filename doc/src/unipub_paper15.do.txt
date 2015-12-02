@@ -1,8 +1,8 @@
 TITLE: Integrating Computation in the Teaching of Physics
-AUTHOR: Anders Malthe-Sørenssen at Department of Physics, University of Oslo
+AUTHOR: Anders Malthe-SÃ¸renssen at Department of Physics, University of Oslo
 AUTHOR: Morten Hjorth-Jensen at Department of Physics, University of Oslo & Department of Physics and Astronomy, Michigan State University
-AUTHOR: Hans Petter Langtangen at Simula Research Laboratory & University of Oslo
-AUTHOR: Knut Mørken at Department of Mathematics, University of Oslo
+AUTHOR: Hans Petter Langtangen at Center for Biomedical Computing, Simula Research Laboratory & Department of Informatics, University of Oslo
+AUTHOR: Knut MÃ¸rken at Department of Mathematics, University of Oslo
 DATE: today
 
 # Cite original
@@ -121,8 +121,8 @@ can be illustrated with the example in the table below.
 |--------------------------|
 | Week 1 | Week 2 | Week 3 |
 |---X-------X---------X----|
-| The derivative is defined in MAT1100 | _Week 2_: The numerical derivative is introduced in MAT-INF1100 | _Week 3_: The derivative is implemented in Python  INF1100 |
-|  $\frac{d f}{d x}=\lim_{\Delta x\rightarrow 0} \left( \frac{f(x+\Delta x)}{\Delta x}  \right)$ | $\frac{d f}{d x}= \left( \frac{f(x+\Delta x)}{\Delta x}  \right)$ | `def dfdx(f, x, dx=1E-5): return (f(x+dx) - f(x))/dx` |
+| The derivative is defined in MAT1100 | The numerical derivative is introduced in MAT-INF1100 | The derivative is implemented in Python in INF1100 |
+|  $\frac{d f}{d x}=\lim_{\Delta x\rightarrow 0} \left( \frac{f(x+\Delta x)}{\Delta x}  \right)$ | $\frac{d f}{d x}\approx \frac{f(x+\Delta x)}{\Delta x}$ | `def dfdx(f, x, dx=1E-5):  return (f(x+dx)-f(x))/dx` |
 |--------------------------|
 
 It is our experience that this method of teaching gives a deeper
@@ -259,7 +259,7 @@ made to apply and formulate her arguments. This process of formulation
 can be a central element in building the basic concepts for the
 understanding of physics cite{Sorby_2009}.
 
-FIGURE: [fig/tornado, width=500 frac=0.8] Illustration of the classical bullet orbit and of the orbit of a sensor shooting through a tornado. The underlying equations are the same, but for a tornado it is only possible to solve the problem with numerical computations} label{fig:tornado}
+FIGURE: [fig/tornado, width=500 frac=0.8] Illustration of the classical bullet orbit and of the orbit of a sensor shooting through a tornado. The underlying equations are the same, but for a tornado it is only possible to solve the problem with numerical computations. label{fig:tornado}
 
 
 ===== Formulation of algorithms gives understanding =====
