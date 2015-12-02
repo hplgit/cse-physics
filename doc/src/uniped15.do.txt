@@ -27,7 +27,7 @@ student participation in research projects as early as their second
 semester.
 
 # Cite original
-This paper was originally published in "Uniped, no 4, 2015": "https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen" in Norwegian.
+This paper was originally published in "Uniped, no 4, 2015": "https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen" in Norwegian under a CC Attribution 4.0 license.
 
 === Keywords ===
 
