@@ -1,12 +1,10 @@
 TITLE: Integrating Computation in the Teaching of Physics
-AUTHOR: Anders Malthe-Sørenssen at Department of Physics, University of Oslo
-AUTHOR: Morten Hjorth-Jensen at Department of Physics, University of Oslo & Department of Physics and Astronomy, Michigan State University
-AUTHOR: Hans Petter Langtangen at Center for Biomedical Computing, Simula Research Laboratory & Department of Informatics, University of Oslo
-AUTHOR: Knut Mørken at Department of Mathematics, University of Oslo
+AUTHOR: Anders Malthe-Sørenssen {copyright|CC BY} at Department of Physics, University of Oslo
+AUTHOR: Morten Hjorth-Jensen {copyright|CC BY} at Department of Physics, University of Oslo & Department of Physics and Astronomy, Michigan State University
+AUTHOR: Hans Petter Langtangen {copyright|CC BY} at Center for Biomedical Computing, Simula Research Laboratory & Department of Informatics, University of Oslo
+AUTHOR: Knut Mørken {copyright|CC BY} at Department of Mathematics, University of Oslo
 DATE: today
 
-# Cite original
-# https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen
 
 __Abstract.__
 Numerical computation is now a fundamental tool of physics, applied in
@@ -27,6 +25,9 @@ computing is integrated into the course curriculum; we present studies
 of the students' learning process, and we present experience from
 student participation in research projects as early as their second
 semester.
+
+# Cite original
+This paper was originally published in "Uniped, no 4, 2015": "https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen" in Norwegian.
 
 === Keywords ===
 
