@@ -259,7 +259,7 @@ made to apply and formulate her arguments. This process of formulation
 can be a central element in building the basic concepts for the
 understanding of physics cite{Sorby_2009}.
 
-FIGURE: [tornado, width=500 frac=0.8] Illustration of the classical bullet orbit and of the orbit of a sensor shooting through a tornado. The underlying equations are the same, but for a tornado it is only possible to solve the problem with numerical computations} label{fig:tornado}
+FIGURE: [fig/tornado, width=500 frac=0.8] Illustration of the classical bullet orbit and of the orbit of a sensor shooting through a tornado. The underlying equations are the same, but for a tornado it is only possible to solve the problem with numerical computations} label{fig:tornado}
 
 
 ===== Formulation of algorithms gives understanding =====
@@ -353,7 +353,6 @@ of good learning material and good examples - a challenge that demands
 for a vigorous boost, but that will also be an inspiring journey into
 which to travel for every ambitious teacher.
 
+======= References =======
 
-
-
-
+BIBFILE: papers.pub
