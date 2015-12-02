@@ -22,5 +22,7 @@ system bibtex $name
 system pdflatex $name
 system pdflatex $name
 
+system doconce format html $name $opt --html_style=bootswatch_journal
+
 # Publish
-cp $name.pdf ../pub
+cp $name.pdf $name.html ../pub
