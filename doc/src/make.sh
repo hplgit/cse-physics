@@ -26,3 +26,4 @@ system doconce format html $name $opt --html_style=bootswatch_journal
 
 # Publish
 cp $name.pdf $name.html ../pub
+cp -r fig ../pub
