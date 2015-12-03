@@ -22,7 +22,8 @@ system bibtex $name
 system pdflatex $name
 system pdflatex $name
 
-system doconce format html $name $opt --html_style=bootswatch_journal
+# Compile to HTML
+system doconce format html $name $opt --html_style=bootswatch_journal --html_share=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html
 
 # Publish
 cp $name.pdf $name.html ../pub
