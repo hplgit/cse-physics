@@ -7,24 +7,7 @@ DATE: today
 
 
 __Abstract.__
-Numerical computation is now a fundamental tool of physics, applied in
-both research and industry. But computing has not been an integrated
-part of either the contents or the form of the traditional physics
-education. We have integrated computing in the education from day
-one. This allows us to make fundamental changes in how and what we
-teach in the basic physics courses. The students can now work with
-realistic, applied problems to a large degree early in their
-education, and they learn to apply a problem-solving workflow that
-closely reflects realistic workflows they will meet in research or
-industry. This change in curriculum also allows for a series of new
-pedagogical approaches which involves both students and teachers more
-actively, and it allows students to participate in real research
-projects early in their studies. Here, we present examples of how this
-change in curriculum is implemented and realised in courses where
-computing is integrated into the course curriculum; we present studies
-of the students' learning process, and we present experience from
-student participation in research projects as early as their second
-semester.
+Numerical computation is now a fundamental tool of physics, applied in both research and industry. But computing has not been an integrated part of either the contents or the form of the traditional physics education. We have integrated computing in the education from day one. This allows us to make fundamental changes in how and what we teach in the basic physics courses. The students can now work with realistic, applied problems to a large degree early in their education, and they learn to apply a problem-solving workflow that closely reflects realistic workflows they will meet in research or industry. This change in curriculum also allows for a series of new pedagogical approaches which involves both students and teachers more actively, and it allows students to participate in real research projects early in their studies. Here, we present examples of how this change in curriculum is implemented and realised in courses where computing is integrated into the course curriculum; we present studies of the students? learning process, and we present experience from student participation in research projects as early as their second semester.
 
 # Cite original
 This paper was originally published in "Uniped, no 4, 2015": "https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen" in Norwegian under a CC Attribution 4.0 license.
@@ -50,7 +33,7 @@ cite{Stormo_2009} shows that computing makes an important share of the
 task, but that the education has not given the students a strong
 enough background in numerical computation.
 
-This should make us, who develop education, worry. Our goal is to
+This should make education professional worry. Our goal is to
 educate students for a 40-year long career, but they lack basic
 knowledge that is necessary from day one. However, there has been and
 there is an ongoing intense research on how to teach physics. This
@@ -169,7 +152,7 @@ gained some experiences with general pedagogical interest:
 Mechanics has a long tradition going back to Newton, with
 well-developed examples and exercises. The primary component of the
 course is the application of Newton's second law, saying that
-acceleration of a body is given by the sum of the forces. Through
+acceleration of a body is equal to the sum of the forces acting on the body. Through
 Calculus students have learned methods for finding the movement of a
 body given its acceleration, and in mechanics they learn how to apply
 this to physics problems. The challenge in education lies in the fact
@@ -181,10 +164,10 @@ addition, the problems are often only marginally solvable: a small
 change in the formulation of the problem makes it impossible to solve
 with analytical (not computational) methods that the students have
 learned. The analytical solution is often a special case that cannot
-be generalised. This can be frustrating for the student, because
-she/he must follow a narrow path through a jungle of difficulties that
-she/he has no control over. The choice of this path is in addition
-often difficult to explain to the student, since it is based on
+be generalised. This can be frustrating for students, because
+they must follow a narrow path through a jungle of difficulties that
+they have no control over. The choice of this path is in addition
+often difficult to explain to the students, since it is based on
 experience and not on transmissible principles - a definite method is
 chosen since it is now known that it brings to the answer, based on a
 long experience of trial and error.
@@ -202,22 +185,22 @@ the curriculum in separate laws for reciprocity - laws of motion - so
 that the problems can be solved independently of whether the resulting
 equation are solvable. This gives the students a more robust toolkit
 that is generalisable, allowing the students to look at more realistic
-problems, covoring the subject in a more realistic manner.
+problems, covering the subject in a more realistic manner.
 
 ===== Theory presentation from the perspective of realistic data =====
 
 With the integration of computing we can support explanations and
 theory from realistic data. For example, we can teach students about
-motion by looking at the running of Usain bolt in the Olympic Games in
+motion by looking at Usain bolt running at the Olympic Games in
 Beijing. Data on the running is available, with position as a function
 of time. We can use this data to introduce the terms velocity and
 acceleration, and thus analyse Bolt's acceleration throughout the
-running. We bind this analysis with the physics understanding by
+running. We bind this analysis with the physical understanding by
 developing a realistic model for the run, based on a set of laws of
-motion that take into account air resistance, the transition from the
+motion that take into account air resistance, transition from the
 crouching position to fully extended position, and physical
 exhaustion. The model can be solved numerically and is compared to
-data, and the model can be simplified and solved analytically as
+data, and it can also be simplified and solved analytically as
 well. This creates a working process that is very similar to the one
 physicists use when they face a real life problem setting.  As another
 example on the use of data, students learn about the movement of
@@ -234,29 +217,29 @@ general learning process, instead of starting with an artificial
 assumption stating that planets travel in a circular orbit.  The most
 important aspects of this approach are: the students experience
 physics as a powerful, applicable tools; they learn a realistic
-working process that they will have use of in the future; they can
+working process that they will have use in the future; they can
 work from early on with realistic problem settings, something that is
 both motivating and inspiring.
 
 ===== Learning through cooperation and discussion =====
 
 Another classical example from physics is the study of the orbit of a
-cannonball without air resistance - a parabolic orbit. The example has
+cannonball without air resistance - a parabolic orbit. This example has
 a long tradition and illustrates how often a problem is simplified
 down to - and above - its simplest components.  But the same learning
-goals can also be achieved by letting the student look at a modified
-version of the example: by computing the orbit of a sensor shot
+goals can also be achieved by letting the students look at a modified
+version of that example: by computing the orbit of a sensor shot
 through a tornado (see Figure ref{fig:tornado}). The velocity field
 of the tornado is given, but every student must develop a model on
 her/his own and model the orbit of the sensor. The most important
-element in the learning process is when the students sit next to each
+element in the learning process is when students sit next to each
 other as they solve the problem. All students will get slightly varied
 results, depending upon their choice of elements in the theory, and/or
 different starting points for the sensor. When a student compares her
 results with the results of her fellow student sitting next to her,
 they will have to reason out whether the differences are due to errors
 or differences in the models - and in that discussion the student is
-made to apply and formulate her arguments. This process of formulation
+forced to apply and formulate her arguments. This process of formulation
 can be a central element in building the basic concepts for the
 understanding of physics cite{Sorby_2009}.
 
@@ -267,17 +250,17 @@ FIGURE: [fig/tornado, width=500 frac=0.8] Illustration of the classical bullet o
 
 In the Mechanics course we often ask the students to write a computer
 program to find the solution to a given problem. For well-chosen
-problems, this will push the student to formulate her understanding of
+problems, this will push the students to formulate their understanding of
 physics and adapt that understanding to a tangible set of algorithmic
 steps. This process has a lot in common with explaining the solution
 to another student - a process which has been shown to be very
 important to building a good understanding of physics (Deslauriers et
-al. 2011; Mazur, 1996). This will also help the student to better her
+al. 2011; Mazur, 1996). This will also help students to better their
 understanding of the subject: it is important to note that often
 understanding is an illusion, but this illusion can be unraveled when
-the student translates her understanding into an algorithm.
+students translate their understanding into an algorithm.
 
-An example on this is to ask the student to make a program to find the
+An example on this is to ask students to make a program to find the
 movement of a body influenced by friction. The classical Law of
 Friction distinguished between static and dynamic friction. Dynamic
 friction is simple to implement in a program, while to implement
@@ -302,8 +285,8 @@ publications, as proved in cite{Tromborg_2014}.
 ======= Experiences and learning outcome =======
 
 Studies on the student's learning outcome in FYS-MEK1100
-cite{Sorby_2009} show that students often adopt their own's modelling
-mode when they program. This can make the process of connecting
+cite{Sorby_2009} show that students often adopt their own's “modelling
+mode” when they program. This can make the process of connecting
 mathematical, physical and programming aspects of the problem setting
 into a challenge. Students have a tendency to think about every
 problem separately, and don\,'t use for example the physical intuition
@@ -314,45 +297,13 @@ better understanding of the model, and give more possibilities to
 explore models outside the box they have been developed for - so that
 students also get an experience of discovery and experimentation.
 
-Exam schemes integrating the use of computations can be quite good to
-evaluate the students understanding of the subject. This can for
-example be done by asking the student to write a program to find the
-answer to an exercise. In mechanics it is as simple to check if a
-student knows the difference between a scalar and a vector in a
-mathematical formulation of the problem or in a program solving the
-problem. But a program will also show if the student understands a
-wider set of aspects with the model. For example, the model of a rope
-will have different behaviour if the rope is stretched out or pressed
-together; this difference comes out more clearly when the student
-formulates her understanding in a program.
+Exam schemes integrating the use of computations can be quite good to evaluate the students understanding of the subject. This can for example be done by asking the students to write a program to find the answer to an exercise. In mechanics, it is simple to check if a student knows the difference between a scalar and a vector in a mathematical formulation of the problem or in a program solving the problem. But a computer program will also show if the student understands a wider set of aspects related to the model. For example, the model of a rope will have different behaviour if the rope is stretched out or pressed; this difference comes out more clearly when the student formulates her understanding in a program.
 
-Teachers who have worked with the integration of computing have
-experienced that it is important to introduce programming separately
-before it is applied to other subjects: experience tells that it is
-more than double as difficult to learn two things contemporarily than
-learning only the physics in one course. Also, it has become clear
-that longer case-studies with computations often contribute to
-building a positive learning environment, with good discussions among
-students and between student and teacher. It seems to be easier to ask
-a teacher about programming and implementation more than about
-physics; but all questions lead anyways to good physics debates that
-give a good learning payoff for the students cite{Deslauriers_2011,Mazur_1996}.
+Teachers who have worked with the integration of computing have experienced that it is important to introduce programming separately before it is applied to other subjects: experience tells that it is twice as difficult to study two subjects, namely Physics and Programming simultaneously as compared to just studying Physics in one course. Also, it has become clear that the longer the case-studies with computations the more they contribute to building a positive learning environment, with good discussions among students and between student and teacher. It seems to be easier for the students to ask a teacher about programming and implementation than about physics; but all questions lead anyways to healthy debates and discussions, resulting in a rich learning payoff for the students cite{Deslauriers_2011,Mazur_1996}.
 
 ======= Conclusion =======
 
-There exist highly impressive pedagogical and professional arguments
-for the integration of computing in the study of Physics - and truly
-in every other study with a mathematical component. Integrating
-computations moves the perspective from form to content, and it gives
-a necessary modernisation to the content of Physics as a science. This
-also gives the students a toolbox which for the applicability of the
-subject; it makes it possible to introduce realistic and applied
-problem settings; it motivates and inspires the students even when
-some effort is necessary; it opens for the possibility of discussions
-around physics among students. The greater challenge is today the lack
-of good learning material and good examples - a challenge that demands
-for a vigorous boost, but that will also be an inspiring journey into
-which to travel for every ambitious teacher.
+There exist highly impressive pedagogical and professional arguments for the integration of computing in the study of Physics - and truly in every other study with a mathematical component. Integrating computations moves the perspective from form to content, and it gives a necessary modernisation to the content of Physics as a science. This also gives the students a toolbox, which is very useful for the applicability of the subject; it makes it possible to introduce realistic and applied problem settings; it motivates and inspires the students even when some effort is necessary; it opens up for the possibility of discussions around Physics, among students. The greater challenge today is the lack of good learning material and good examples - a challenge that calls for a vigorous boost, but that will also be an inspiring journey that every ambitious teacher would be eager to embark upon.
 
 ======= References =======
 
