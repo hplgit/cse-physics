@@ -202,7 +202,7 @@ the curriculum in separate laws for reciprocity - laws of motion - so
 that the problems can be solved independently of whether the resulting
 equation are solvable. This gives the students a more robust toolkit
 that is generalisable, allowing the students to look at more realistic
-problems, covoring the subject in a more realistic manner.
+problems, covering the subject in a more realistic manner.
 
 ===== Theory presentation from the perspective of realistic data =====
 
@@ -256,7 +256,7 @@ different starting points for the sensor. When a student compares her
 results with the results of her fellow student sitting next to her,
 they will have to reason out whether the differences are due to errors
 or differences in the models - and in that discussion the student is
-made to apply and formulate her arguments. This process of formulation
+forced to apply and formulate her arguments. This process of formulation
 can be a central element in building the basic concepts for the
 understanding of physics cite{Sorby_2009}.
 
