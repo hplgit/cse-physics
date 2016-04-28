@@ -1,0 +1,652 @@
+<!--
+Automatically generated HTML file from DocOnce source
+(https://github.com/hplgit/doconce/)
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/hplgit/doconce/" />
+<meta name="description" content="Integrating Computation in the Teaching of Physics">
+
+<title>Integrating Computation in the Teaching of Physics</title>
+
+<!-- Bootstrap style: bootswatch_journal -->
+<link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/journal/bootstrap.min.css" rel="stylesheet">
+<!-- not necessary
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+-->
+
+<style type="text/css">
+
+/* Add scrollbar to dropdown menus in bootstrap navigation bar */
+.dropdown-menu {
+   height: auto;
+   max-height: 400px;
+   overflow-x: hidden;
+}
+
+body { font-size:20px;line-height:1.5; }
+</style>
+
+<style type="text/css">
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+</style>
+</center>
+
+
+</head>
+
+<!-- tocinfo
+{'highest level': 1,
+ 'sections': [(u'Keywords', 3, None, '___sec0'),
+              (u'Introduction', 1, None, '___sec1'),
+              (u'The build-up of a physics education', 1, None, '___sec2'),
+              (u'Programming and Computations in the first semester',
+               1,
+               None,
+               '___sec3'),
+              (u'Physics, Mathematics and programming in later semesters',
+               1,
+               None,
+               '___sec4'),
+              (u'Examples on the integration of computing in mechanics',
+               1,
+               None,
+               '___sec5'),
+              (u'Robust problem solving', 2, None, '___sec6'),
+              (u'Theory presentation from the perspective of realistic data',
+               2,
+               None,
+               '___sec7'),
+              (u'Learning through cooperation and discussion',
+               2,
+               None,
+               '___sec8'),
+              (u'Formulation of algorithms gives understanding',
+               2,
+               None,
+               '___sec9'),
+              (u'Problems close to research and participation in research',
+               2,
+               None,
+               '___sec10'),
+              (u'Experiences and learning outcome', 1, None, '___sec11'),
+              (u'Conclusion', 1, None, '___sec12'),
+              (u'References', 1, None, '___sec13')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+    
+<!-- Bootstrap navigation bar -->
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="uniped15.html">Integrating Computation in the Teaching of Physics</a>
+  </div>
+
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contents <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+     <!-- navigation toc: --> <li><a href="#___sec0" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keywords</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec1" style="font-size: 80%;"><b>Introduction</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec2" style="font-size: 80%;"><b>The build-up of a physics education</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec3" style="font-size: 80%;"><b>Programming and Computations in the first semester</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec4" style="font-size: 80%;"><b>Physics, Mathematics and programming in later semesters</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec5" style="font-size: 80%;"><b>Examples on the integration of computing in mechanics</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec6" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;Robust problem solving</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec7" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;Theory presentation from the perspective of realistic data</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec8" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;Learning through cooperation and discussion</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec9" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;Formulation of algorithms gives understanding</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec10" style="font-size: 80%;">&nbsp;&nbsp;&nbsp;Problems close to research and participation in research</a></li>
+     <!-- navigation toc: --> <li><a href="#___sec11" style="font-size: 80%;"><b>Experiences and learning outcome</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec12" style="font-size: 80%;"><b>Conclusion</b></a></li>
+     <!-- navigation toc: --> <li><a href="#___sec13" style="font-size: 80%;"><b>References</b></a></li>
+
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</div> <!-- end of navigation bar -->
+
+<div class="container">
+
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> <!-- add vertical space -->
+
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<div class="jumbotron">
+<center><h1>Integrating Computation in the Teaching of Physics</h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): Anders Malthe-Sørenssen, Morten Hjorth-Jensen, Hans Petter Langtangen, and Knut Mørken -->
+
+<center>
+<b>Anders Malthe-Sørenssen</b> [1]
+</center>
+
+<center>
+<b>Morten Hjorth-Jensen</b> [1, 2]
+</center>
+
+<center>
+<b>Hans Petter Langtangen</b> [3, 4]
+</center>
+
+<center>
+<b>Knut Mørken</b> [5]
+</center>
+
+<p>
+<!-- institution(s) -->
+
+<center>[1] <b>Department of Physics, University of Oslo</b></center>
+<center>[2] <b>Department of Physics and Astronomy, Michigan State University</b></center>
+<center>[3] <b>Center for Biomedical Computing, Simula Research Laboratory</b></center>
+<center>[4] <b>Department of Informatics, University of Oslo</b></center>
+<center>[5] <b>Department of Mathematics, University of Oslo</b></center>
+<br>
+<p>
+<<<<<<< HEAD
+<center><h4>Apr 28, 2016</h4></center> <!-- date -->
+=======
+<center><h4>Dec 9, 2015</h4></center> <!-- date -->
+>>>>>>> 1d0adbfc187d3d5f78b3316719d37f47293d0cc2
+<br>
+<p>
+<b>Abstract.</b> Numerical computation is now a fundamental tool of physics, applied in both research and industry. But computing has not been an integrated part of either the contents or the form of the traditional physics education. We have integrated computing in the education from day one. This allows us to make fundamental changes in how and what we teach in the basic physics courses. The students can now work with realistic, applied problems to a large degree early in their education, and they learn to apply a problem-solving workflow that closely reflects realistic workflows they will meet in research or industry. This change in curriculum also allows for a series of new pedagogical approaches which involves both students and teachers more actively, and it allows students to participate in real research projects early in their studies. Here, we present examples of how this change in curriculum is implemented and realised in courses where computing is integrated into the course curriculum; we present studies of the students? learning process, and we present experience from student participation in research projects as early as their second semester.
+
+<p>
+<!-- Cite original -->
+This paper was originally published in <a href="https://www.idunn.no/uniped/2015/04/integrasjon_av_beregninger_ifysikkundervisningen" target="_self">Uniped, no 4, 2015</a> in Norwegian under a CC Attribution 4.0 license.
+
+<p>
+</div> <!-- end jumbotron -->
+
+<h3 id="___sec0">Keywords </h3>
+
+<p>
+learning, science, computing, student-active, teaching practice, interdisciplinary
+
+<h1 id="___sec1">Introduction </h1>
+
+<p>
+Nearly all fields have been transformed by an explosive advance of
+computational capacity, and the development is even stronger as the
+application of computational power is spread <a href="#Brynjolfson_2011">[1]</a>. A
+normal laptop - the one most students own - is as powerful as a
+supercomputer from 10 years ago, so that computations once nearly
+impossible, are now accessible to everyone. Nowadays, most scientific
+or industrial projects aim at having a strong computing
+component. This is the case for fields as astronomy, geoscience,
+material science and bioscience, and for all aspects of physics.  But
+this development is not followed in the teaching of physics. A study
+on the tasks assigned to fresh graduate students from NTNU
+<a href="#Stormo_2009">[2]</a> shows that computing makes an important share of the
+task, but that the education has not given the students a strong
+enough background in numerical computation.
+
+<p>
+This should make education professional worry. Our goal is to
+educate students for a 40-year long career, but they lack basic
+knowledge that is necessary from day one. However, there has been and
+there is an ongoing intense research on how to teach physics. This
+activity has brought great understanding in what works in the physics
+curriculum <a href="#Deslauriers_2011">[3]</a>, but it has been
+directed towards the form of the education, not on its content.
+
+<p>
+A modern physics education must have a computing perspective. The goal
+is not to make the physics students into informatics students, but to
+integrate computing in the execution of the subject, so that we
+educate skilled computing experts. Today, computing is used as an
+integrated part of the execution of the subject, and the goal is that
+this integration is reflected in the education, so that students use
+computing as naturally as they use today traditional mathematics. In
+order to achieve this, computing should be integrated in all fields,
+so that students apply computing frequently and throughout the
+studies.
+
+<p>
+The integration of computing will also give numerous pedagogical
+merits. Physics, as other scientific fields, faces meaningful
+challenges in motivation and dropouts. With the integration of
+computing we can introduce realistic and research-oriented problems
+early on in the studies aspects that have been asked for by students
+<a href="#Seymour_2000">[4]</a> and we can give the students more robust strategies
+for problem-solving, which is closer to what they will encounter in
+research and industry. A computing perspective can also simplify the
+presentation of the subject and rekindle the interest that in the
+first place attracted so many to this field.
+
+<p>
+In this article we will come up with examples as to how computing can
+be integrated in the physics education, what pedagogical gains are
+expected to be achieved, and share experiences from the integration of
+computing. The first part of the article describes the build-up of
+physics education at the University of Oslo. Thereafter it discusses
+examples, experiences, and consequences for future development of the
+education.
+
+<h1 id="___sec2">The build-up of a physics education </h1>
+
+<p>
+The Physics study programme at the University of Oslo is shown in
+the table below:
+
+<p>
+
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-striped table-hover table-condensed">
+<thead>
+<tr><td align="center"><b>Semester</b></td> <td align="center"><b>              Course 1              </b></td> <td align="center"><b>               Course 2               </b></td> <td align="center"><b>                             Course 3                            </b></td> </tr>
+</thead>
+<tbody>
+<tr><td align="left">   3rd         </td> <td align="left">   MAT1120: Linear Algebra                 </td> <td align="left">   optional                                  </td> <td align="left">   FYS1120: Electromagnetism                                            </td> </tr>
+<tr><td align="left">   2nd         </td> <td align="left">   MAT1110: Calculus and Linear Algebra    </td> <td align="left">   MEK1100:Vector Calculus                   </td> <td align="left">   FYS-MEK1100: Mechanics                                               </td> </tr>
+<tr><td align="left">   1st         </td> <td align="left">   MAT1100: Calculus                       </td> <td align="left">   MAT-INF1100: Modeling and Computations    </td> <td align="left">   INF1100: Introduction to programming with scientific applications    </td> </tr>
+</tbody>
+    </table>
+  </div> <!-- col-xs-12 -->
+</div> <!-- cell row -->
+<p>
+The education has been structured this way since 2003, but in 2007 the
+first informatics course was made into a course more relevant to the
+scientific courses. The study has a method package constituted of
+three courses in the first semester, two courses in the second, and
+one course in the third semester. All these method courses have
+integrated computations in the curriculum, and they constitute the
+substance for further use of computations in other subjects.
+
+<h1 id="___sec3">Programming and Computations in the first semester </h1>
+
+<p>
+The first semester is especially well integrated. The course MAT1100
+gives the mathematical substance through basic Calculus, it is
+followed up by the corresponding numerical methods in MAT-INF1100, and
+in INF1100 the students learn to implement these problems in a
+concrete programming language. The connection between these courses
+can be illustrated with the example in the table below.
+
+<p>
+
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-striped table-hover table-condensed">
+<thead>
+<tr><td align="center"><b>                                              Week 1                                             </b></td> <td align="center"><b>                           Week 2                          </b></td> <td align="center"><b>                             Week 3                            </b></td> </tr>
+</thead>
+<tbody>
+<tr><td align="left">   The derivative is defined in MAT1100                                                                 </td> <td align="left">   The numerical derivative is introduced in MAT-INF1100          </td> <td align="left">   The derivative is implemented in Python in INF1100                 </td> </tr>
+<tr><td align="left">   \( \frac{d f}{d x}=\lim_{\Delta x\rightarrow 0} \left( \frac{f(x+\Delta x)}{\Delta x}  \right) \)    </td> <td align="left">   \( \frac{d f}{d x}\approx \frac{f(x+\Delta x)}{\Delta x} \)    </td> <td align="left">   <code>def dfdx(f, x, dx=1E-5):  return (f(x+dx)-f(x))/dx</code>    </td> </tr>
+</tbody>
+    </table>
+  </div> <!-- col-xs-12 -->
+</div> <!-- cell row -->
+<p>
+It is our experience that this method of teaching gives a deeper
+understanding for the mathematical concepts, and at the same time it
+gives a more applicable knowledge. It does not though make the content
+easier, since connecting the same terms across subjects demands a
+higher degree of abstraction.
+
+<p>
+Programming is a basic knowledge and fundamental way of thinking that
+supports and expands mathematical ways of thinking, but it requires a
+lot of practice in order to be mastered. Our experience is therefore
+that programming should be introduced early in the course of
+education, and thereafter be practiced continuously. In order to
+secure a good integration, a new adapted learning material in
+programming and physics has been developed <a href="#Langtangen_primer">[5]</a> <a href="#Malthe_mechpy">[6]</a>.
+
+<h1 id="___sec4">Physics, Mathematics and programming in later semesters </h1>
+
+<p>
+The goal with the further build-up of the program is to integrate and
+repeat the skills earned from the method-courses into the physics
+courses. This is a large development process, and for now we have only
+completed a good integration in a few courses. There are numerous
+courses that contain some elements in computing - simple examples and
+simple exercises that can give some training in computing - but this
+does not take into use the whole spectrum of possibilities that a
+complete integration of computing could give.
+
+<h1 id="___sec5">Examples on the integration of computing in mechanics </h1>
+
+<p>
+The course FYS-MEK1100 offered in the second semester at the
+University of Oslo covers a basic introduction of Newton\,'s
+mechanics. Corresponding courses can be found in nearly all
+Universities all around the world, and curriculum, examples, exercises
+and reading material have been well developed for a long time. The
+course contains the use of Calculus, especially the solution of
+differential equations, to solve problems in mechanics - a subject
+that is apt to integration of computing. We have developed a course
+with complete integration of computing, and through this work we have
+gained some experiences with general pedagogical interest:
+
+<h2 id="___sec6">Robust problem solving </h2>
+
+<p>
+Mechanics has a long tradition going back to Newton, with
+well-developed examples and exercises. The primary component of the
+course is the application of Newton's second law, saying that
+acceleration of a body is equal to the sum of the forces acting on the body. Through
+Calculus students have learned methods for finding the movement of a
+body given its acceleration, and in mechanics they learn how to apply
+this to physics problems. The challenge in education lies in the fact
+that very few realistic problems can be solved without the use of
+numerical computation. Traditionally, the subject has been limited by
+what can be solved without computations, and this is why a number of
+problems have been developed, which are solvable, but miss realism. In
+addition, the problems are often only marginally solvable: a small
+change in the formulation of the problem makes it impossible to solve
+with analytical (not computational) methods that the students have
+learned. The analytical solution is often a special case that cannot
+be generalised. This can be frustrating for students, because
+they must follow a narrow path through a jungle of difficulties that
+they have no control over. The choice of this path is in addition
+often difficult to explain to the students, since it is based on
+experience and not on transmissible principles - a definite method is
+chosen since it is now known that it brings to the answer, based on a
+long experience of trial and error.
+
+<p>
+Fortunately, there is a simple solution to this problem - by letting
+go the requirement of having an analytically solvable problem, and
+instead look at problems that can also be solved numerically on
+computers. This requires a slightly different presentation of the
+curriculum, but it gives a totally robust solution method that the
+students can apply, and that always works. The traditional
+presentation of the subject follows the problems that could be solved
+analytically, and the solution methods for these problems. The new
+presentation, where computing is integrated, follows a partition of
+the curriculum in separate laws for reciprocity - laws of motion - so
+that the problems can be solved independently of whether the resulting
+equation are solvable. This gives the students a more robust toolkit
+that is generalisable, allowing the students to look at more realistic
+problems, covering the subject in a more realistic manner.
+
+<h2 id="___sec7">Theory presentation from the perspective of realistic data </h2>
+
+<p>
+With the integration of computing we can support explanations and
+theory from realistic data. For example, we can teach students about
+motion by looking at Usain bolt running at the Olympic Games in
+Beijing. Data on the running is available, with position as a function
+of time. We can use this data to introduce the terms velocity and
+acceleration, and thus analyse Bolt's acceleration throughout the
+running. We bind this analysis with the physical understanding by
+developing a realistic model for the run, based on a set of laws of
+motion that take into account air resistance, transition from the
+crouching position to fully extended position, and physical
+exhaustion. The model can be solved numerically and is compared to
+data, and it can also be simplified and solved analytically as
+well. This creates a working process that is very similar to the one
+physicists use when they face a real life problem setting.  As another
+example on the use of data, students learn about the movement of
+planets by downloading data from NASA, analysing the data and find
+Newton's Law of gravity, and then apply Newton's Law of gravity to
+study the movement of planets in a more general setting. By starting
+with Newton's Law of motion and computing the orbit of a body
+numerically, we will normally find an elliptic or hyperbolic orbit
+releasing the gravitational field. It is only for a very special
+choice of initial conditions that we will get a circular orbit - which
+is the one that can be simply analysed analytically. By starting with
+data and applying the computations, students achieve a realistic,
+general learning process, instead of starting with an artificial
+assumption stating that planets travel in a circular orbit.  The most
+important aspects of this approach are: the students experience
+physics as a powerful, applicable tools; they learn a realistic
+working process that they will have use in the future; they can
+work from early on with realistic problem settings, something that is
+both motivating and inspiring.
+
+<h2 id="___sec8">Learning through cooperation and discussion </h2>
+
+<p>
+Another classical example from physics is the study of the orbit of a
+cannonball without air resistance - a parabolic orbit. This example has
+a long tradition and illustrates how often a problem is simplified
+down to - and above - its simplest components.  But the same learning
+goals can also be achieved by letting the students look at a modified
+version of that example: by computing the orbit of a sensor shot
+through a tornado (see Figure <a href="#fig:tornado">1</a>). The velocity field
+of the tornado is given, but every student must develop a model on
+her/his own and model the orbit of the sensor. The most important
+element in the learning process is when students sit next to each
+other as they solve the problem. All students will get slightly varied
+results, depending upon their choice of elements in the theory, and/or
+different starting points for the sensor. When a student compares her
+results with the results of her fellow student sitting next to her,
+they will have to reason out whether the differences are due to errors
+or differences in the models - and in that discussion the student is
+forced to apply and formulate her arguments. This process of formulation
+can be a central element in building the basic concepts for the
+understanding of physics <a href="#Sorby_2009">[7]</a>.
+
+<p>
+<center> <!-- figure label: --> <div id="fig:tornado"></div> <!-- FIGURE -->
+<hr class="figure">
+<center><p class="caption">Figure 1:  Illustration of the classical bullet orbit and of the orbit of a sensor shooting through a tornado. The underlying equations are the same, but for a tornado it is only possible to solve the problem with numerical computations.  <!-- caption label: fig:tornado --> </p></center>
+<p><img src="fig/tornado.png" align="bottom" width=500></p>
+</center>
+
+<h2 id="___sec9">Formulation of algorithms gives understanding </h2>
+
+<p>
+In the Mechanics course we often ask the students to write a computer
+program to find the solution to a given problem. For well-chosen
+problems, this will push the students to formulate their understanding of
+physics and adapt that understanding to a tangible set of algorithmic
+steps. This process has a lot in common with explaining the solution
+to another student - a process which has been shown to be very
+important to building a good understanding of physics (Deslauriers et
+al. 2011; Mazur, 1996). This will also help students to better their
+understanding of the subject: it is important to note that often
+understanding is an illusion, but this illusion can be unraveled when
+students translate their understanding into an algorithm.
+
+<p>
+An example on this is to ask students to make a program to find the
+movement of a body influenced by friction. The classical Law of
+Friction distinguished between static and dynamic friction. Dynamic
+friction is simple to implement in a program, while to implement
+static friction, and especially the transition from dynamic to static
+friction, it is necessary to thoroughly think about the underlying
+physical concepts. In such a case, the formulation of an algorithm
+will give the students a more general insight into friction than
+through basic exercises.
+
+<h2 id="___sec10">Problems close to research and participation in research </h2>
+
+<p>
+Integration of computing gives the students practical, operative
+knowledge that makes it possible for them to work with problems close
+to the world of research, and have a great contribution to research
+projects. Through the creation of well directed problem settings, a
+good instruction-based guidance and long-term follow-up, students can
+take part in research groups as valuable members, as early as in the
+Bachelor degree, with the possibility of participating to
+publications, as proved in <a href="#Tromborg_2014">[8]</a>.
+
+<h1 id="___sec11">Experiences and learning outcome </h1>
+
+<p>
+Studies on the student's learning outcome in FYS-MEK1100
+<a href="#Sorby_2009">[7]</a> show that students often adopt their own's “modelling
+mode” when they program. This can make the process of connecting
+mathematical, physical and programming aspects of the problem setting
+into a challenge. Students have a tendency to think about every
+problem separately, and don\,'t use for example the physical intuition
+to interpret and correct the code. A better presentation of the
+assignments, with stronger weight on connections across fields, can
+improve this situation. The use of computations seems to both give a
+better understanding of the model, and give more possibilities to
+explore models outside the box they have been developed for - so that
+students also get an experience of discovery and experimentation.
+
+<p>
+Exam schemes integrating the use of computations can be quite good to evaluate the students understanding of the subject. This can for example be done by asking the students to write a program to find the answer to an exercise. In mechanics, it is simple to check if a student knows the difference between a scalar and a vector in a mathematical formulation of the problem or in a program solving the problem. But a computer program will also show if the student understands a wider set of aspects related to the model. For example, the model of a rope will have different behaviour if the rope is stretched out or pressed; this difference comes out more clearly when the student formulates her understanding in a program.
+
+<p>
+Teachers who have worked with the integration of computing have experienced that it is important to introduce programming separately before it is applied to other subjects: experience tells that it is twice as difficult to study two subjects, namely Physics and Programming simultaneously as compared to just studying Physics in one course. Also, it has become clear that the longer the case-studies with computations the more they contribute to building a positive learning environment, with good discussions among students and between student and teacher. It seems to be easier for the students to ask a teacher about programming and implementation than about physics; but all questions lead anyways to healthy debates and discussions, resulting in a rich learning payoff for the students <a href="#Deslauriers_2011">[3]</a> <a href="#Mazur_1996">[9]</a>.
+
+<h1 id="___sec12">Conclusion </h1>
+
+<p>
+There exist highly impressive pedagogical and professional arguments for the integration of computing in the study of Physics - and truly in every other study with a mathematical component. Integrating computations moves the perspective from form to content, and it gives a necessary modernisation to the content of Physics as a science. This also gives the students a toolbox, which is very useful for the applicability of the subject; it makes it possible to introduce realistic and applied problem settings; it motivates and inspires the students even when some effort is necessary; it opens up for the possibility of discussions around Physics, among students. The greater challenge today is the lack of good learning material and good examples - a challenge that calls for a vigorous boost, but that will also be an inspiring journey that every ambitious teacher would be eager to embark upon.
+
+<h1 id="___sec13">References </h1>
+
+<p>
+<!-- begin bibliography -->
+
+<ol>
+ <li> <div id="Brynjolfson_2011"></div> <b>E. Brynjolfson and A. McAfee</b>. 
+    <em>Race again the machines</em>,
+    Digital Frontier Press,
+    2011.</li>
+ <li> <div id="Stormo_2009"></div> <b>A. Stormo</b>. 
+    Integrering av numeriske beregninger i grunnleggende fysikk-kurs,
+<<<<<<< HEAD
+    MSc thesis, Norwegian University of Science and Technology.</li>
+=======
+    2009,
+    MSc thesis, Norwegian University of Science and Technology (in Norwegian),
+    <a href="http://bit.ly/1YLop9Z" target="_self"><tt>http://bit.ly/1YLop9Z</tt></a>.</li>
+>>>>>>> 1d0adbfc187d3d5f78b3316719d37f47293d0cc2
+ <li> <div id="Deslauriers_2011"></div> <b>L. Deslauriers, E. Schelew and C. Wieman</b>. 
+    Improving learning in a large-enrollment physics class,
+    <em>Science</em>,
+    pp. 862-864,
+    2011.</li>
+ <li> <div id="Seymour_2000"></div> <b>E. Seymour</b>. 
+    <em>Talking about leaving: Why undergraduates leave the sciences</em>,
+    Westview Press,
+    2000.</li>
+ <li> <div id="Langtangen_primer"></div> <b>H. P. Langtangen</b>. 
+    <em>A Primer on Scientific Programming with Python</em>,
+    fourth edition,
+    <em>Texts in Computational Science and Engineering</em>,
+    Springer,
+    2014.</li>
+ <li> <div id="Malthe_mechpy"></div> <b>A. Malthe-Sørenssen</b>. 
+    <em>Elementary Mechanics using Python</em>,
+    Springer,
+    2015.</li>
+ <li> <div id="Sorby_2009"></div> <b>S. Sorby and C. Angell</b>. 
+    Undergraduate students challenges with computational modelling in physics,
+    <em>NorDiNa: Nordic Studies in science education</em>,
+    pp. 283-296,
+    2009.</li>
+ <li> <div id="Tromborg_2014"></div> <b>J. K. Trømborg, H. A. Sveinsson, J. Scheibert, K. Thorgersen, D. S. Amundsen and A. Malthe-Sørenssen</b>. 
+    Slow slip and the transition from fast to slow fronts in the rupture of frictional interface,
+    <em>PNAS</em>,
+    111,
+    pp. 8764-8769,
+    2014.</li>
+ <li> <div id="Mazur_1996"></div> <b>E. Mazur</b>. 
+    <em>Peer instruction: A user's manual</em>,
+    Addison-Wesley,
+    1996.</li>
+</ol>
+
+<!-- end bibliography -->
+
+<!-- ------------------- end of main content --------------- -->
+
+</div>  <!-- end container -->
+<!-- include javascript, jQuery *first* -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap footer
+<footer>
+<a href="http://..."><img width="250" align=right src="http://..."></a>
+</footer>
+-->
+
+
+<center style="font-size:80%">
+<!-- copyright --> &copy; 2016, Anders Malthe-Sørenssen, Morten Hjorth-Jensen, Hans Petter Langtangen, Knut Mørken. Released under CC Attribution 4.0 license
+</center>
+
+
+
+<!-- Got these buttons from simplesharebuttons.com -->
+<center>
+<div id="share-buttons">
+
+    <!-- Email -->
+    <a href="mailto:?Subject=Interesting link&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://hplgit.github.io/cse-physics/doc/pub/uniped15.html">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html&amp;name=Interesting link&amp;hashtags=interesting" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+
+<!-- Print -->
+    <a href="javascript:;" onclick="window.print()">
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+    </a>
+
+</div>
+</center>
+
+
+</body>
+</html>
+    
+

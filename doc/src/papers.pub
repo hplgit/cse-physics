@@ -1,0 +1,71 @@
+* articles
+** Improving learning in a large-enrollment physics class
+   key:       Deslauriers_2011
+   author:    L. Deslauriers, E. Schelew, C. Wieman
+   year:      2011
+   journal:   Science
+   pages:     862-864
+   status:    published
+   entrytype: article
+** Undergraduate students challenges with computational modelling in physics
+   key:       Sorby_2009
+   author:    S. Sorby, C. Angell
+   year:      2009
+   journal:   NorDiNa: Nordic Studies in science education
+   pages:     283-296
+   status:    published
+   entrytype: article
+** Slow slip and the transition from fast to slow fronts in the rupture of frictional interface
+   key:       Tromborg_2014
+   author:    J. K. Trømborg, H. A. Sveinsson, J. Scheibert, K. Thorgersen, D. S. Amundsen, A. Malthe-Sørenssen
+   year:      2014
+   journal:   PNAS
+   volume:    111
+   pages:     8764-8769
+   status:    published
+   entrytype: article
+* books
+** A Primer on Scientific Programming with {P}ython
+   key:       Langtangen_primer
+   author:    H. P. Langtangen
+   year:      2014
+   publisher: Springer
+   status:    published
+   series:    Texts in Computational Science and Engineering
+   edition:   Fourth
+   entrytype: book
+** Elementary Mechanics using {Python}
+   key:       Malthe_mechpy
+   author:    A. Malthe-Sørenssen
+   year:      2015
+   publisher: Springer
+   status:    published
+   entrytype: book
+** Peer instruction: A user's manual
+   key:       Mazur_1996
+   author:    E. Mazur
+   year:      1996
+   publisher: Addison-Wesley
+   status:    published
+   entrytype: book
+** Talking about leaving: Why undergraduates leave the sciences
+   key:       Seymour_2000
+   author:    E. Seymour
+   year:      2000
+   publisher: Westview Press
+   status:    published
+   entrytype: book
+** Race again the machines
+   key:       Brynjolfson_2011
+   author:    E. Brynjolfson, A. McAfee
+   year:      2011
+   publisher: Digital Frontier Press
+   status:    published
+   entrytype: book
+* misc
+** Integrering av numeriske beregninger i grunnleggende fysikk-kurs
+   key:       Stormo_2009
+   author:    A. Stormo
+   year:      2009
+   note:      MSc thesis, Norwegian University of Science and Technology (in Norwegian)
+   url:       http://bit.ly/1YLop9Z
