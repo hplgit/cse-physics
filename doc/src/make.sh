@@ -16,13 +16,13 @@ opt="--encoding=utf8"
 #opt=
 
 # Compile to latex and pdf
-system doconce format pdflatex $name --latex_code_style=vrb $opt --latex_table_format=footnotesize --section_numbering=off
-system pdflatex $name
+system doconce format pdflatex $name $opt --latex_table_format=footnotesize --section_numbering=off --latex_font=palatino --latex_admon=yellowicon '--latex_admon_color=yellow!5' --latex_fancy_header --latex_code_style=pyg --latex_section_headings=blue --latex_colored_table_rows=blue
+system pdflatex -shell-escape $name
 system bibtex $name
-system pdflatex $name
-system pdflatex $name
+system pdflatex -shell-escape $name
+system pdflatex -shell-escape $name
 
-system doconce format html $name $opt --html_style=bootswatch_journal
+system doconce format html $name $opt --html_style=bootswatch_journal "--html_body_style=font-size:20px;line-height:1.5"
 
 # Publish
 cp $name.pdf $name.html ../pub
