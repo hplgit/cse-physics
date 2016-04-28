@@ -22,12 +22,7 @@ system bibtex $name
 system pdflatex -shell-escape $name
 system pdflatex -shell-escape $name
 
-<<<<<<< HEAD
-system doconce format html $name $opt --html_style=bootswatch_journal "--html_body_style=font-size:20px;line-height:1.5"
-=======
-# Compile to HTML
-system doconce format html $name $opt --html_style=bootswatch_journal --html_share=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html
->>>>>>> 1d0adbfc187d3d5f78b3316719d37f47293d0cc2
+system doconce format html $name $opt --html_style=bootswatch_journal "--html_body_style=font-size:20px;line-height:1.5" --html_share=http://hplgit.github.io/cse-physics/doc/pub/uniped15.html
 
 # Publish
 cp $name.pdf $name.html ../pub
